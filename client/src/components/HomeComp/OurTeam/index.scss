@@ -1,0 +1,29 @@
+#team{
+    color: var(--main--color);
+    padding-bottom: 80px;
+    .header-content{
+        padding: 70px 0 ;
+        text-align: center;
+        h4{
+    font-size: 18px;
+    font-style: italic;
+    }
+        h3{
+    font-size: 46px;
+        }
+    }
+.girls{
+    .girl{
+        text-align: center;
+            padding: 0;
+       h5{
+        padding-top: 22px;
+font-size: 22px;
+       }
+       h6{
+        font-size: 16px;
+        font-style: italic;
+       }
+    }
+}
+}

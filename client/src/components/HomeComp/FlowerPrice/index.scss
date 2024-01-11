@@ -1,0 +1,26 @@
+#section{
+    color: var(--main--color);
+    
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg");
+    background-size: cover;
+    background-position: center;
+    .header-content{
+        padding: 70px 0 ;
+        text-align: center;
+        h4{
+font-size: 18px;
+font-style: italic;
+}
+        h3{
+font-size: 46px;
+        }
+    }
+    .filter{
+        p{
+            cursor: pointer;
+            &:hover{
+                color: black;
+            }
+        }
+    }
+}

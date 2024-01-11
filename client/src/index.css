@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: inherit;
+  font-family: 'Quicksand', sans-serif;
+}
+ul li{
+  list-style: none;
+ 
+}
+ul{
+  margin: 0 ;
+  padding: 0 ;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+img{
+  width: 100%;
+}
