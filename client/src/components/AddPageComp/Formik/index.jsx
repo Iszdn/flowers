@@ -2,10 +2,11 @@ import React from 'react';
 import { useFormik } from 'formik';
 import "./index.scss"
 import axios from "axios"
-const AddForm = () => {
+const AddForm = ({getFlowers}) => {
 
    async function addFlower(values) {
         const res=await axios.post("http://localhost:8000/",values)
+        getFlowers()
     }
 
 

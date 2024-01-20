@@ -19,7 +19,7 @@ const Wishlist = () => {
 <h3>{x.title}</h3>
 
 <p>${x.price}</p>
-<Link onClick={()=>deleteWish(product)}>del</Link>
+<Link onClick={()=>deleteWish(x)}>del</Link>
     </div>
     )
 }
